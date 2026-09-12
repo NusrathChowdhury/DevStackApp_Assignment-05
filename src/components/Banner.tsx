@@ -32,6 +32,7 @@ const Banner = () => {
                         <button className="bg-white text-black px-6 py-3 rounded-lg border border-gray-300 font-medium hover:bg-gray-100 hover:scale-105 transition duration-300">
                             Learn More
                         </button>
+                        
 
                     </div>
 
