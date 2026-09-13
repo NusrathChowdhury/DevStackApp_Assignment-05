@@ -61,13 +61,13 @@ const Navber = () => {
                         <button
                             className="px-2 md:px-4 py-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-transform duration-300"
                         >
-                            SignIn
+                            Sign In
                         </button>
 
                         <button
-                            className="bg-[#D91B7E] text-white px-2 md:px-4 py-2 rounded-full hover:bg-[#D91B7E] hover:scale-110 transition-transform duration-300"
+                            className="brand-gradient text-white px-2 md:px-4 py-2 rounded-full hover:scale-110 transition-transform duration-300"
                         >
-                            SignUp
+                            Sign Up
                         </button>
 
                     </div>

@@ -15,8 +15,8 @@ function App() {
         <Technologies
           technologiesPromise={technologiesPromise}
         />
-        <Footer />
       </Suspense>
+        <Footer />
     </>
   );
 }
