@@ -146,7 +146,9 @@ const Technologies = ({ technologiesPromise }: ITechnologiesProps) => {
                 {/* Remove All */}
                 <button
                   onClick={handleRemoveAll}
-                  className="w-full mt-4 border border-red-200 text-red-500 py-2 rounded-lg text-xs font-medium hover:bg-red-50"
+                  className="w-full mt-4 border border-red-200 
+                  bg-red-500
+                  text-white py-2 rounded-lg text-xs font-medium hover:bg-red-700"
                 >
                   Remove All
                 </button>

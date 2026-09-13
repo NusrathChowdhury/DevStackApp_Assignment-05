@@ -140,28 +140,44 @@ const TechnologyCard = ({
       </div>
 
       {/* Add to Stack Button */}
-      <button
-        onClick={handleAddToCart}
-        disabled={isAdded}
-        className={`
-          w-full
-          mt-3
-          text-white
-          py-2
-          rounded-lg
-          text-xs
-          font-medium
-          transition
-          duration-300
-          ${
-            isAdded
-              ? "bg-gray-400 cursor-not-allowed"
-              : "bg-[#080d19] hover:bg-gray-800"
+      <div
+        onClick={() => {
+          if (isAdded) {
+            toast.warning(
+              `${technology.name} is already in your stack!`,
+              {
+                position: "top-center",
+                autoClose: 3000,
+                theme: "colored",
+              }
+            );
           }
-        `}
+        }}
+        className="w-full"
       >
-        {isAdded ? "✓ Added to Stack" : "Add to Stack"}
-      </button>
+        <button
+          onClick={handleAddToCart}
+          disabled={isAdded}
+          className={`
+            w-full
+            mt-3
+            text-white
+            py-2
+            rounded-lg
+            text-xs
+            font-medium
+            transition
+            duration-300
+            ${
+              isAdded
+                ? "bg-gray-400 cursor-not-allowed pointer-events-none"
+                : "bg-[#080d19] hover:bg-gray-800"
+            }
+          `}
+        >
+          {isAdded ? "✓ Added to Stack" : "Add to Stack"}
+        </button>
+      </div>
 
     </div>
   );
