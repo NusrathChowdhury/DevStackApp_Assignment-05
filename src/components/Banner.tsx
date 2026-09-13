@@ -12,7 +12,7 @@ const Banner = () => {
 
                     <h2 className='text-4xl md:text-5xl font-bold leading-tight mb-5'>
                         Build Your Ideal <br />
-                        <span className="bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent">
+                        <span className="brand-gradient bg-clip-text text-transparent">
                             Development Stack
                         </span>
                     </h2>
@@ -25,7 +25,7 @@ const Banner = () => {
 
                     <div className='flex flex-wrap gap-4'>
 
-                        <button className="bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:scale-105 transition duration-300">
+                        <button className="brand-gradient text-white px-6 py-3 rounded-lg font-medium shadow-md hover:scale-105 transition duration-300">
                             Explore Technologies
                         </button>
 

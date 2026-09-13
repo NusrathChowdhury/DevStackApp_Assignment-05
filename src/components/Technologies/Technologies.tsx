@@ -50,7 +50,7 @@ const Technologies = ({ technologiesPromise }: ITechnologiesProps) => {
       <div className="mb-8">
         <h2 className="text-3xl font-bold text-gray-800">
           Explore{" "}
-          <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+          <span className="brand-gradient bg-clip-text text-transparent">
             Technologies
           </span>
         </h2>

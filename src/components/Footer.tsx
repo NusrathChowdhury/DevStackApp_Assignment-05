@@ -26,9 +26,9 @@ const Footer = () => {
                                     Dev
                                 </span>
 
-                                <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-                                    Stack
-                                </span>
+                                <span className="brand-gradient bg-clip-text text-transparent">
+  Stack
+</span>
 
                             </span>
 
